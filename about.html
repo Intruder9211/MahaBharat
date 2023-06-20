@@ -1,154 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MahaBharat</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-   
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MahaBharat</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
-   <style>
-		/* basic CSS styling */
-		body {
-			font-family: Arial, sans-serif;
-			margin: 0;
-			padding: 0;
-            
-        background-color: rgb(197, 142, 100);
-        background-size: cover;
-      
-		}
-		header {
-			background-color: transparent;
-			color: #3f2929;
-			padding: 20px;
-			text-align: center;
-		}
-		main {
-			padding: 20px;
-		}
-		h1 {
-			margin-top: 0;
-			color: rgb(222, 241, 11);
-			border: 1px solid black;
-			
-			
-		}
-		p {
-			line-height: 2.5;
-            color: hsl(336, 43%, 24%);
-			font-style: unset;
-		}
-	
 
 
-		.container {
-			max-width: 960px;
-			margin: 0 auto;
-			padding: 0 15px;
-		}
-		
-		.main-content {
-			float: left;
-			width: 70%;
-            color: #fffffd;
-			font-style: oblique;
-		}
-        .main-content img{
-            mix-blend-mode: multiply;
-			background: transparent;
-        }
-		
-		.additional-content {
-			float: right;
-			width: 30%;
-            color: #fffffd;
-		}
-       
-		
-		@media (max-width: 768px) {
-			.main-content, 
-			.additional-content {
-				width: 100%;
-				float: none;
-			}
-		}
-	</style>
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><b>MahaBharat</b></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="/about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="/contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/characters.html">Characters</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Adhyay
-                        </a>
-                        <ul class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Raja Shantanu</a>
-                            <a class="dropdown-item" href="#">Chitrangadha</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Support</a>
-                            <a class="dropdown-item" href="#">Write For Us</a>
-                        </ul>
-                    </li>
 
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search Characters" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
-        </div>
-    </nav>
-	<header>
-		<h1>About Mahabharat</h1>
-	</header>
-	<main>
-		<p>Mahabharat is one of the two major Sanskrit epics of ancient India, the other being the Ramayana. It narrates the conflict between the Pandavas and the Kauravas, two branches of a royal family in the kingdom of Hastinapur. The story spans over 100,000 shlokas (verses) and is divided into 18 books, each containing several chapters.</p>
-		<p>Mahabharat is considered a masterpiece of world literature and has been translated into numerous languages. Its themes include love, politics, war, ethics, and spirituality. Along with the Ramayana, it has played a major role in shaping Indian culture and identity.</p>
-		<p>Our website aims to provide a comprehensive resource for anyone interested in Mahabharat. We offer summaries of each book, character profiles, analysis of key themes, and more.</p>
-	</main>
-    <br>
-    <div class="container">
-		<section class="main-content">
-			<h2>About Us</h2>
-			<p>We are a team of developers who are passionate about creating high-quality websites and web applications.</p>
-			<img  src="lo.png" alt="Our Team" id="logo">
-		</section>
-		
-		<section class="additional-content">
-			<h3>Our Team</h3>
-			<ul>
-				<li>John Doe</li>
-				<li>Jane Smith</li>
-				<li>Samuel Parker</li>
-			</ul>
-		</section>
-	</div>
- 
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#"><b>MahaBharat</b></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" href="/">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="/about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="/contact.html">Contact</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/characters.html">Characters</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+							aria-expanded="false">
+							Adhyay
+						</a>
+						<ul class="dropdown-menu">
+							<a class="dropdown-item" href="#">Raja Shantanu</a>
+							<a class="dropdown-item" href="#">Chitrangadha</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Support</a>
+							<a class="dropdown-item" href="#">Write For Us</a>
+						</ul>
+					</li>
+
+				</ul>
+				<form class="d-flex" role="search">
+					<input class="form-control me-2" type="search" placeholder="Search Characters" aria-label="Search">
+					<button class="btn btn-outline-success" type="submit">Search</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+
+	<!DOCTYPE html>
+	<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>About Us card || Learning robo</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="about.css">
+		<script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+	</head>
+
+	<body>
+		<section>
+			<div class="image">
+				<img src="krishna.png">
+			</div>
+
+			<div class="content">
+				<h2>About Us</h2>
+				<span><!-- line here --></span>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis aspernatur voluptas inventore ab
+					voluptates nostrum minus illo laborum harum laudantium earum ut, temporibus fugiat sequi explicabo
+					facilis unde quos corporis!</p>
+				<ul class="links">
+					<li><a href="#">work</a></li>
+					<div class="vertical-line"></div>
+					<li><a href="#">service</a></li>
+					<div class="vertical-line"></div>
+					<li><a href="/contact.html">contact</a></li>
+				</ul>
+				<ul class="icons">
+					<li>
+						<a href="https://twitter.com/MohitSi41810906?t=8ppbtw2axoyW0a8rWS9HSA&s=09"> <i
+								class="fa fa-twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/mohit-singh-27312a224"> <i class="fa fa-linkedin"></i></a>
+					</li>
+					<li>
+						<a href="https://youtube.com/@GLORYOFGOD0TO100"> <i class="fa fa-youtube"></i></a>
+					</li>
+					<li>
+						<a href="https://github.com/Intruder9211"> <i class="fa fa-github"></i></a>
+					</li>
+					<li>
+						<a href="https://instagram.com/mr_10_intruder?igshid=ZDdkNTZiNTM="> <i
+								class="fa fa-instagram"></i></a>
+					</li>
+				</ul>
+			</div>
+		</section><br><br>
+		<div class="credit">Made with <span style="color:tomato">❤</span> by Mohit Singh</a></div>
+	</body>
+
+	</html>
+
+
 
 
 </body>
+
 </html>
